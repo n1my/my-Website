@@ -1,0 +1,41 @@
+body {
+	background-color:purple;
+	color:white;
+	}
+head{
+	color:white;
+	font-size:20px;
+}
+img{
+	height:400px;
+	width:400px;
+	display:block;
+	margin:0 auto;
+}
+#about {
+	text-align: center;
+	margin:0 auto;
+
+}
+#home {
+	text-align: center;
+	margin:0 auto;
+	color:white;
+	fot-size:30px;
+}
+#images {
+	width:400px;
+	height:400px;
+}
+#slider {
+	width:100%;
+	height:400px;
+}
+#container {
+	padding-top:50px;
+	width:100%;
+	height:950px;
+}
+#vids{
+	text-align:center;
+}

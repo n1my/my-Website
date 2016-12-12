@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html>
+	<head>
+	<title> my website </title><link rel="stylesheet" type="text/css" href="style.css"/>
+		<script src="http://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+		<!-- Latest compiled and minified CSS -->
+		<link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">		
+		<!-- Optional theme -->
+		<link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap-theme.min.css" integrity="sha384-rHyoN1iRsVXV4nD0JutlnGaslCJuC7uwjduW9SVrLvRYooPp2bWYgmgJQIXwl/Sp" crossorigin="anonymous">		
+		<!-- Latest compiled and minified JavaScript -->
+		<script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+		
+		<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.9.0/jquery.min.js"></script>
+		<script src="sss/sss.min.js"></script>
+		<link rel="stylesheet" href="sss/sss.css" type="text/css" media="all"/>
+		<script>jQuery(function($) {$('.slider').sss();});</script>
+		<script src="http://cdnjs.cloudflare.com/ajax/libs/jquery-backstretch/2.0.4/jquery.backstretch.min.js"></script>
+		
+	</head>
+	
+	<body id="home">
+	<p id="message"></p>
+	<script>
+
+	var name=prompt("what is your name?");
+	var age=parseInt(prompt("what is your age"));
+	
+	
+	if(age>=18){
+		
+		document.getElementById("message").innerHTML="Welcome " +name+" you are allowed because you are " +age;
+	}
+	else if (age<=18){
+		document.getElementById("message").innerHTML="sorry! " +name+" you are not allowed because you are " +age;
+	}
+	
+	
+	</script>
+	
+	<div class="navbar-static-top navbar-inverse" id="home">
+		<div class="container">
+			<div class="navbar-brand">
+				My Site
+			</div>
+			<button class="navbar-toggle" data-toggle="collapse" data-target=".navHeaderCollapse">
+				Menu
+			</button>
+			<div class="collapse navbar-collapse navHeaderCollapse">
+				<ul class="nav navbar-nav navbar-right">
+					<li><a href="index.hmtl">Home</a></li>
+					<li><a href="about.html"about">About</a></li>
+					<li><a href="portfolio.html"portfolio">Portfolio</a></li>
+					<li><a href="contact.html"contact">Contact</a></li>
+					<li><a href="">Show me the code!</a></li>f
+				</ul>
+			</div>
+		</div>
+	</div>
+	<div class="container">
+		<div class="slider">
+			<img class="images" src="https://iso.500px.com/wp-content/uploads/2014/09/2048-13-1500x1000.jpg" />
+			<img class="images" src="https://encrypted-tbn1.gstatic.com/images?q=tbn:ANd9GcSvmCKhjkaew5hXyTAWPecN2-VL9JN8zzpSiZ-geYpsTyHA-JNjhg" />
+			<img class="images" src="http://digital-photography-school.com/wp-content/uploads/flickr/2746960560_8711acfc60_o.jpg" />
+			<img class="images" src="http://7606-presscdn-0-74.pagely.netdna-cdn.com/wp-content/uploads/2016/03/Dubai-Photos-Images-Dubai-City-HD-Wallpaper-800x600.jpg" />
+			</div>
+		</div>
+	</div>
+			<img src="me.jpg" height="400" width="400"/>
+			<div class="row">
+				<div class="col-md-12"><h1>Naomi peate</h1></div>
+			</div>
+	<div class="conatiner">
+		<div class="row">
+			<div class="col-md-2"></div>
+			<div class="col-md-7">
+				<h1><u>Welcome to my webpage</u></h1>
+				<p>my name is naomi peate and this is my website that i made myself. 
+					i am 19 years of age and love this area of study and find it 
+					very interesting and you really do learn new things everyday.</P>
+				<hr>
+				<h2><u>about myself</u></h2>
+				<p>i finished my leaving cert when i was sixteen and at that time 
+				   i didnt really know what i wanted to do.so after turning 17 i decided to do a 
+				   history course as i loved history in second level and thought it would be good, 
+				   turns out it was horrible and made 
+				   me hate history forever. so i then decided to try another course which was computing 
+				   and electronics. i absolutely loved this course, i learned how to make website and do lots more 
+				   and thats when i realised that this was what i wanted to do.</p>
+				<hr>
+			</div>
+			<div class="col-md-2"></div>
+				<script>$.backstretch("http://cdn.wallpapersafari.com/78/68/yp1TY4.jpg");
+					</script>
+	</body>
+	
+	</html>
